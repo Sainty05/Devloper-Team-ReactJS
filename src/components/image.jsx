@@ -5,7 +5,7 @@ export const Image = ({ title, largeImage, smallImage }) => {
     <div className="portfolio-item">
       <div className="hover-bg">
         {" "}
-        <a href={largeImage} title={title} data-lightbox-gallery="gallery1">
+        <a rel="manoj" href={"https://manoj-singh-chouhan-2.netlify.app"} title={title} data-lightbox-gallery="gallery1" target='_blank'>
           <div className="hover-text">
             <h4>{title}</h4>
           </div>
